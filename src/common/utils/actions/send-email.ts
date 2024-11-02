@@ -26,7 +26,7 @@ export const sendEmail = async (formData: FormData) => {
       from: "babardeveloper2@gmail.com",
       to: ["babardeveloper2@gmail.com"], // Send to your email address
       subject: "Message from contact form | PORTFOLIO",
-      reply_to: senderEmail,
+      replyTo: senderEmail,
       text: `Message: ${message}\nSender Email: ${senderEmail}`,
     });
   } catch (error) {
