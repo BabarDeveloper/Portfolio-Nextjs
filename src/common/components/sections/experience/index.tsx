@@ -56,14 +56,14 @@ export default function Experience() {
                 <h4 className="font-semibold capitalize">{item.label}</h4>
                 <h3 className="font-semibold capitalize">{item.title}</h3>
                 <p className="!mt-0 font-normal">{item.location}</p>
-                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75 ">
                   {item.description}
                 </p>
               </VerticalTimelineElement>
             </React.Fragment>
           ))}
       </VerticalTimeline>
-      <div className="flex w-full justify-center dark:bg-darkBg">
+      <div className="flex w-full justify-center dark:bg-darkBg ">
         <SectionDivider />
       </div>
     </section>

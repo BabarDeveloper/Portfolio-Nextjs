@@ -41,6 +41,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    label: 'React Developer',
+    title: 'Syncjourney',
+    location: 'Karachi, Pakistan',
+    description: `Built high-performance React apps with Redux/Context API. Created reusable components, optimized rendering, and integrated APIs. Collaborated cross-functionally to deliver scalable solutions while maintaining code quality and testing standards (Jest/RTL). Enhanced front-end architecture through code reviews and optimizations. `,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'Mar 2025 - Present',
+  },
+  {
     label: 'Senior Web Developer',
     title: 'BA Unique Web Solutions',
     location: 'Karachi, Pakistan',
@@ -113,7 +121,8 @@ export const skillsData = [
   ['React', '/svgs/react.svg'],
   ['Next.js', '/svgs/nextjs.svg'],
   ['Node.js', '/svgs/node-js.svg'],
-  ['Express', '/svgs/express-original.svg'],
+  ['Express.js', '/svgs/express-original.svg'],
+  ['Nest.js', '/svgs/NestJS.svg'],
   ['Tailwind', '/svgs/tailwind-css.svg'],
   ['Framer', '/svgs/framer.svg'],
   ['Shadcn', '/svgs/shadcnui.svg'],

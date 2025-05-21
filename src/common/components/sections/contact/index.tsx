@@ -52,7 +52,7 @@ export default function Contact() {
           or through this form.
         </p>
 
-        <form
+        {/* <form
           className="mt-10 flex flex-col dark:text-black"
           onSubmit={handleSubmit}
         >
@@ -74,7 +74,7 @@ export default function Contact() {
           <div className="flex justify-center">
             <SubmitBtn />
           </div>
-        </form>
+        </form> */}
       </div>
     </motion.section>
   );
